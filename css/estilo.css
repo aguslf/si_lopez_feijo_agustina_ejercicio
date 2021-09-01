@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,400;1,600&display=swap');
+
+body{
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family: ;
+	margin-bottom: 10px; 
+	text-align: left;
+	font-family: 'Montserrat-bold', sans-serif;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: 'Montserrat', sans-serif;;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+#filtro {
+	filter: hue-rotate(170deg);
+}
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background: 
+       	  url(../img/homero.png) left top no-repeat,
+       	  url(../img/yoda.png) right bottom no-repeat,
+       	  url(../img/space.jpg) 0 0 no-repeat;
+    }
+
+#columnas {
+	width: 800px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: 0.5px solid #fab1a0;
+	border-color: #ff7675;
+	border-width: 1px;
+	border-style: solid;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+#conejos {
+	border-radius: 20px 40px 60px 80px;
+}
+.degradado {
+		width: 960px;
+	height: 640px;
+	background-color: green;
+}
+
+.transparencia1 {
+	width: 960px;
+	height: 200px;
+	background-color: green;
+	background-color: rgba(46, 191, 138, 0.3); 
+	color: rgba(46, 191, 138, 0.3);
+
+}
+
+.transparencia2 {
+	width: 960px;
+	height: 200px;
+	margin-top: 5px;
+	background-color: rgba(46, 191, 138, 0.6); 
+	color: rgba(46, 191, 138, 0.6);
+}
+
+.transparencia3 {
+	width: 960px;
+	height: 200px;
+	margin-top: 5px;
+	background-color: rgba(46, 191, 138, 1); 
+	color: rgba(46, 191, 138, 0.3);
+}
+
+.degradado {
+	background: rgb(134,18,149);
+	background: linear-gradient(207deg, 
+	rgba(134,18,149,0.8799894957983193) 5%,
+	rgba(255,255,255,1) 93%);
+}
+
+.sombra {
+	box-shadow: 30px 20px 30px white; 
+  border-radius: 20px;  
+  background-color:green;
+  width:660px;
+  height: 300px;
+  padding:10px;
+  margin-bottom: 40px;
+}
